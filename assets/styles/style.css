@@ -22,6 +22,10 @@ header{
     
 }
 
+nav{
+    background-color: red;
+    align-items:flex-end;
+}
 nav a{
     background-color: hotpink;
     color: white;
