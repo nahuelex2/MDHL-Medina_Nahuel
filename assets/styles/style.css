@@ -17,15 +17,15 @@ body{
  
 }
 header{
-    background-color: rgb(1, 30, 54);
+   /*  background-color: rgb(1, 30, 54); */
     width: 100%;
     display: flex;
-    padding: 1rem 2rem;
+   /*  padding: 1rem 2rem; */
     /* align-items: center; */
     /* justify-content: space-around; */
     /* justify-content:space-around;
     align-items:flex-end; */
-    border-radius: 15px;
+   /*  border-radius: 15px; */
     
     flex-flow: row wrap;
     justify-content:space-around;
@@ -39,33 +39,49 @@ header{
 header #leagueName{
     font-size: 2rem;
     font-weight: bold;
-    color: white;
-    position:relative;
+   /*  color: white; */
+    /* position:sticky;
+    top: 0; */
 }
 
 header nav ul {
     display: flex;
     list-style: none;
+
 }
 
 header nav ul a{
     color: white;
-    padding: 0 22px;
-    /* font-weight: 600; */
-    font-size:  20px;
+    padding: 10px 16px;
+
+    font-size:  16px;
     text-decoration: none;
-    background-color: rgb(204, 103, 103);
+    background-color: hotpink;
+    border-radius: 4px;
+    margin-left: 10px;
+   /*  padding:10px 10px; */
+}
+
+header nav{
+    position: sticky;
+    top: 0;
 }
 #imageheader{
     /* display: none; */
     width: 100%;
  height: 400px;
 }
-a{
-    position:relative;
-}
 
-header nav ul a::after{
+.title{
+   text-align: center;
+   background-color: black;
+   color: white;
+}
+/* a{
+    position:relative;
+} */
+
+/* header nav ul a::after{
     content: "";
     position: absolute;
     height: 2px;
@@ -79,4 +95,4 @@ header nav ul a::after{
 
 header nav ul a:hover::after{
     width: 100%;
-}
+} */
