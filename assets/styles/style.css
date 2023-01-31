@@ -12,12 +12,12 @@
     height: fit-content;
     /* sbackground-color: red; */
 
-     margin: auto;
+    margin: auto;
     /* margin-top: 40px;
     margin-bottom: 40px;  */
     position: relative;
-   
-align-items: center;
+
+    align-items: center;
 }
 
 
@@ -52,7 +52,7 @@ align-items: center;
     text-decoration: none;
     color: white;
 
-    background-color: rgb(83, 120, 221); 
+    background-color: rgb(83, 120, 221);
     border-radius: 4px;
 
     padding: 2px;
@@ -60,10 +60,10 @@ align-items: center;
 
 
 }
+
 #aboutActive,
 #homeActive,
-#contactActive
-{
+#contactActive {
     background-color: rgb(14, 167, 133);
 }
 
@@ -93,8 +93,6 @@ align-items: center;
     height: auto;
     /* background-color: yellow; */
     text-align: center;
-
-
 }
 
 
@@ -125,4 +123,3 @@ align-items: center;
 .main-content .article {
     padding: 10px;
 }
-
