@@ -1,3 +1,6 @@
+/* -------------version task3 -------------*/
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +10,44 @@
 }
 
 
-.container {
+
+
+
+
+
+
+
+
+/*-------- fin version task3 -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ */
+/* version task1 y 2 */
+/* 
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: cursive;
+} */
+
+
+.containerasdd {
     width: 800px;
     height: fit-content;
     /* sbackground-color: red; */
