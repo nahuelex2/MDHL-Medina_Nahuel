@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+.contactContainer {
+    font-family: 'Roboto', impact;
+    /* max-width: 800px;
+    max-width: 70%; */
+    width: 70%;
+    /* height: 500px; */
+
+    /* max-width: 1000px; */
+    /* max-width: 600px; */
+    /* max-height: fit-content; */
+    /* max-width: 600px; */
+    margin: 0 auto;
+    background: rgba(83, 1, 1, 0.548);
+    background: black;
+    color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+
+}
+
+.contactContainer .title {
+
+
+    font-size: 2em;
+
+}
+
+.contactContainer .title h2 {
+    font-weight: 500;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.form {
+
+    grid-area: form;
+    background-color: rgba(117, 1, 1, 0.842);
+
+
+}
+
+.infoMapContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info {
+    grid-area: info;
+    background-color: rgba(11, 96, 177, 0.842);
+}
+
+.map {
+    grid-area: map;
+    background-color: rgba(32, 22, 22, 0.842);
+}
+
+.contact {
+    padding: 40px;
+    /* background-color: rgba(117, 1, 1, 0.842); */
+}
+
+.contact h3 {
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formBox {
+    position: relative;
+    width: 40rem;
+}
+
+.formBox .row50 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox {
+    width: 100%;
+}
+
+.inputBox span {
+    color: #18b7ff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.inputBox input,
+.inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333
+}
+
+.inputBox textarea {
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"] {
+    background-color: #ff578b;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}

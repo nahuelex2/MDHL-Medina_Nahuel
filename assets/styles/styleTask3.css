@@ -9,13 +9,39 @@
     /* height: 100vh; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.8)), url(../img/design1_image1.jpg);
 
-    /* background-size: cover; */
-    background-size: 100% 100vh;
+    background-size: cover;
+    /* background-size: 100% 100vh; */
     /* background-position: center; */
 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
+.bannerAbout {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.8)), url(../img/design1_image2.jpg);
+    background-size: cover;
+}
+
+.bannerRules {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.8)), url(../img/hockey_1.jpg);
+    background-size: cover;
+}
+
+.gameInfoBanner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.8)), url(../img/hockey_2.jpg);
+    background-size: cover;
+
+}
+
+.contactBanner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.8)), url(../img/hockey_3.jpg);
+    background-size: cover;
+    object-fit: contain;
+    /* background-repeat: no-repeat; */
+}
 
 .navbar {
     width: 85%;
