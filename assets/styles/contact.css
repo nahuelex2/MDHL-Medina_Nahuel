@@ -40,7 +40,7 @@
 }
 
 .box {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -81,7 +81,7 @@
 
 .formBox {
     position: relative;
-    width: 40rem;
+    width: 30rem;
 }
 
 .formBox .row50 {
@@ -184,6 +184,7 @@
 .sci {
     margin-top: 40px;
     display: flex;
+    justify-content: center;
 }
 
 .sci li {
@@ -204,6 +205,7 @@
 
 .map {
     padding: 0;
+    height: 100%;
 }
 
 .map iframe {
