@@ -1,38 +1,48 @@
-.aboutContainer {
-    /* font-family: "Roboto", sans-serif; */
-    font-family: 'Poppins', sans-serif;
-    /* max-width: 800px;
-    max-width: 70%; */
-    width: 70%;
-    /* height: 500px; */
-
-    /* max-width: 1000px; */
-    /* max-width: 600px; */
-    /* max-height: fit-content; */
-    /* max-width: 600px; */
-    margin: 0 auto;
-    background: rgba(83, 1, 1, 0.548);
-    background: black;
-    color: white;
-    opacity: 0.7;
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    gap: 10px;
-    /* flex-wrap: wrap; */
-
-}
-
 .missionInfo-container {
 
-    width: 100%;
+    width: 80%;
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* height: fit-content; */
+    /* background-color: red; */
 }
+
+.missionInfo-container .card {
+    width: 250px;
+    height: 350px;
+
+}
+
+.missionInfo-container .card img {
+    width: 100px;
+    /* border-radius: 50%; */
+
+}
+
+.missionInfo-container .card h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+
+.missionInfo-container .card p {
+    font-size: 16px;
+
+    margin: 10px auto;
+    max-width: 300;
+    /* background-color: red; */
+
+    /* font-weight: 600; */
+
+}
+
+
+
+
+
 
 .card {
     /* width: 100%; */
@@ -46,41 +56,58 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(500px);
+    /* backdrop-filter: blur(500px); */
     /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; */
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 2px;
 }
 
 #generalInfo {
-    align-self: stretch;
+    /* align-self: stretch; */
     /* justify-content: flex-start;
     text-align: start; */
+    width: 80%;
 }
 
 #generalInfo p {
     max-width: 100%;
     /* text-align: start; */
+
 }
 
 .card img {
-    width: 140px;
+    width: 80px;
     /* border-radius: 50%; */
 
 }
 
 .card h2 {
-    font-size: 40px;
+    /* font-size: 40px;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 20px; */
+
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .card p {
-    font-size: 18px;
+    font-size: 16px;
 
     margin: 10px auto;
     max-width: 330px;
+
+    /* font-size: 16px;
+
+    margin: 10px auto;
+    max-width: 300; */
 }
 
 

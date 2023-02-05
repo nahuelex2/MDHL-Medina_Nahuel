@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/colors.css">
     <link rel="stylesheet" href="./assets/styles/styleTask3.css">
     <link rel="stylesheet" href="./assets/styles/contact.css">
     <title>Document</title>
@@ -30,7 +31,7 @@
     </div>
 
 
-    <div class="contactContainer">
+    <div class="mainFlexContainer">
         <div class="title">
             <h2>Get in Touch</h2>
         </div>
@@ -41,29 +42,29 @@
                     <div class="formBox">
                         <div class="row50">
                             <div class="inputBox">
-                                <span>First Name</span>
-                                <input type="text" placeholder="FirstName">
+                                <label for="firstName">First Name</label>
+                                <input id="firstName" type="text" placeholder="First Name">
                             </div>
                             <div class="inputBox">
-                                <span>Last Name</span>
-                                <input type="text" placeholder="Last Name">
+                                <label for="lastName">Last Name</label>
+                                <input id="lastName" type="text" placeholder="Last Name">
                             </div>
                         </div>
 
                         <div class="row50">
                             <div class="inputBox">
-                                <span>Email</span>
-                                <input type="text" placeholder="example@gmail.com">
+                                <label for="email">Email</label>
+                                <input id="email" type="text" placeholder="example@gmail.com">
                             </div>
                             <div class="inputBox">
-                                <span>Mobile</span>
-                                <input type="text" placeholder="+91987 654 3210">
+                                <label for="mobile">Mobile</label>
+                                <input id="mobile" type="text" placeholder="+91987 654 3210">
                             </div>
                         </div>
                         <div class="row100">
                             <div class="inputBox">
-                                <span>Message</span>
-                                <textarea placeholder="Write your message here..."></textarea>
+                                <label for="message">Message</label>
+                                <textarea id="message" placeholder="Write your message here..."></textarea>
                             </div>
                         </div>
 
