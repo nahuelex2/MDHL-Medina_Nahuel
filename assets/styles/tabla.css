@@ -1,0 +1,25 @@
+body {
+    padding: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .25em;
+    border: 1px solid black;
+}
+
+tbody:nth-child(odd) {
+    background: #CCC;
+}
+
+
+
+tbody:hover td[rowspan],
+tr:hover {
+    background: rgb(0, 255, 0);
+}
