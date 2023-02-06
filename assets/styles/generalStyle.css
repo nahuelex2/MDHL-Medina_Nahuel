@@ -60,22 +60,65 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+
 }
+
+
+#home::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+
+}
+
+#about::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+
+}
+
+#rules::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+}
+
+#gameInfo::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+
+}
+
+#contact::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+}
+
 
 .nav-links ul li::after {
     content: '';
     height: 3px;
     width: 0;
-    /* background: #009688; */
-    background: #ff9900;
-    background: #C74B50;
-    /* background: rgba(22, 115, 221, 0.4); */
+
+    background: rgba(255, 255, 255, 0.274);
+
     position: absolute;
     left: 0;
     bottom: -10px;
     transition: 0.5s;
 }
 
+.nav-links ul li {
+
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover {
+    transform: scale(1.2);
+}
 
 .nav-links ul li:hover::after {
     width: 100%;
@@ -87,7 +130,8 @@
     font-family: "Roboto", sans-serif;
 
     background: var(--black1);
-    color: var(--white);
+    color: var(--white1);
+    opacity: 0.7;
 
     width: 70%;
     margin: 0 auto;

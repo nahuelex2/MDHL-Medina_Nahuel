@@ -1,0 +1,57 @@
+.card {
+    color: var(--white1);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+
+    /* background: rgba(167, 0, 0, 0.356); */
+    border-radius: 16px;
+    /* box-shadow: 5px 20px 30px 10px rgba(133, 1, 1, 0.651); */
+
+    padding: 2px;
+    width: 80%;
+    transition: 1.5s;
+}
+
+.card:hover {
+    box-shadow: var(--background-boxShadow);
+    background: rgba(49, 37, 37, 0.678);
+    border: 1px solid rgba(75, 2, 2, 0.658);
+    transform: scale(1.09);
+
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px auto;
+    max-width: 330px;
+    max-width: 100%;
+}
+
+
+
+.card img {
+    width: 100px;
+}
+
+
+.card h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.missionInfo-container {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.missionInfo-container .card {
+    width: 250px;
+    height: 350px;
+
+}

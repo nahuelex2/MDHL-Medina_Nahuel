@@ -1,5 +1,15 @@
 :root {
     --test: green;
-    --black1: rgba(0, 0, 0, 0.7);
-    --white: rgba(255, 255, 255);
+    --black1: rgba(0, 0, 0, 0.8);
+    --black2: #222222;
+    --white1: rgba(255, 255, 255);
+    --red1: rgb(83, 1, 1);
+    --red2: rgba(224, 4, 4, 0.5);
+    --blue1: rgba(22, 115, 221, 0.4);
+    --lightBlue: #c3b8eb;
+
+
+    --navbar-boxShadow: 5px -8px 40px 30px var(--red2);
+
+    --background-boxShadow: 5px 15px 50px 4px var(--red2);
 }

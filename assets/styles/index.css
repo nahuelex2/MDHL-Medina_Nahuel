@@ -24,28 +24,26 @@
     border: 8px;
     margin: 32px 0;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.692);
-    background: rgba(22, 115, 221, 0.4);
-    background: rgb(83, 1, 1);
+
+    background: var(--red1);
+    /* box-shadow: 10px -20px 90px 0px var(--red1); */
     /* background: var(--test); */
     /* width: 100%; */
 }
 
 .mainFlexContainer .event:hover {
-    box-shadow: 0 10px 50px -10px rgba(212, 93, 13, 0.726);
-    box-shadow: 0 10px 50px -10px rgba(22, 115, 221, 0.4);
-    box-shadow: 0 10px 50px -10px rgb(240, 5, 5);
-    /* box-shadow: 0 10px 50px -10px rgb(146, 4, 4); */
+    box-shadow: 10px -10px 90px 10px var(--red1);
 }
 
 
 .event .event-left {
-    background: #222;
+    background: var(--black2);
     min-width: 82px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #eee;
+
+    color: var(--white1);
     padding: 8px 48px;
     font-weight: bold;
     text-align: center;
@@ -76,13 +74,16 @@
 .event .event-right h3.event-title {
     font-size: 24px;
     margin: 24px 0 10px 0;
-    color: #218bbb;
-    color: #f8d5d5;
     text-transform: uppercase;
 }
 
+.event-description,
+.event-title {
+    color: var(--white1);
+}
+
 .event .event-right .event-timing {
-    background: #fff8ba;
+    background: var(--lightBlue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +93,7 @@
     margin: 24px 0;
     font-size: 14px;
 
-    color: black;
+    color: var(--black1);
 }
 
 .event .event-right .event-timing img {
