@@ -70,6 +70,9 @@ tbody:hover tr {
     transform: scale(1.05);
 }
 
+p a {
+    color: rgb(251, 255, 0);
+}
 
 .maps-Container {
 
@@ -103,8 +106,63 @@ tbody:hover tr {
     border-radius: 10px 10px 0px 0px;
 }
 
-.map-card:hover {
+.maps-Container .map-card:hover {
     transition: 0.5s;
     /* background-color: red; */
     scale: 105%;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+
+    /* border-bottom: 2px dotted;
+    padding: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif; */
+}
+
+.tooltipText {
+    position: absolute;
+    left: 50%;
+
+    transform: translateX(-50%);
+    /* background-color: var(--red1); */
+    color: #fff;
+
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: column;
+    top: -210px;
+
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+}
+
+.tooltipText .map-card {
+    background-color: var(--black2);
+}
+
+.tooltipText::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+
+    border: 15px solid;
+    border-color: #000 #0000 #0000 #0000;
+    border-color: var(--black2) #0000 #0000 #0000;
+
+}
+
+.tooltip:hover .tooltipText {
+
+    visibility: visible;
+    opacity: 1;
 }
