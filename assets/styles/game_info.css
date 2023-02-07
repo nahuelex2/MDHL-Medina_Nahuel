@@ -69,3 +69,42 @@ tbody tr {
 tbody:hover tr {
     transform: scale(1.05);
 }
+
+
+.maps-Container {
+
+    /* background-color: green; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.map-card {
+    background-color: rgba(255, 255, 255, 0.2);
+
+    width: 300px;
+    height: fit-content;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+    /* padding: 1px; */
+    border-radius: 10px;
+}
+
+.map-card>iframe {
+    /* width: 95%; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.map-card:hover {
+    transition: 0.5s;
+    /* background-color: red; */
+    scale: 105%;
+}

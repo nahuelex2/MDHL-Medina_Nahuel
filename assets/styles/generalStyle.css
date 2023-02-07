@@ -94,6 +94,14 @@
 
 }
 
+#registration::after {
+    content: '';
+    display: flex;
+    box-shadow: var(--navbar-boxShadow);
+
+}
+
+
 #contact::after {
     content: '';
     display: flex;
