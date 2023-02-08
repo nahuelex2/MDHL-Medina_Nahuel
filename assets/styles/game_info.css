@@ -109,7 +109,8 @@ p a {
 .maps-Container .map-card:hover {
     transition: 0.5s;
     /* background-color: red; */
-    scale: 105%;
+    /* scale: 105%; */
+    transform: scale(1.09);
 }
 
 .tooltip {
@@ -159,18 +160,7 @@ p a {
 }
 
 
-.tooltipText::after {
-    /* content: "";
-    position: absolute;
-    left: 0%;
-    top: 100%;
-    /* transform: translateX(50%); */
 
-    /* border: 15px solid;
-    border-color: #000 #0000 #0000 #0000;
-    border-color: var(--black2) #0000 #0000 #0000; */
-
-}
 
 .tooltip:hover .tooltipText {
 
